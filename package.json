@@ -1,0 +1,33 @@
+{
+  "name": "@wedontknowjs/ows-common",
+  "version": "0.0.3",
+  "description": "Common utilities for OWS nodes.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "ows",
+    "utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wedontknowjs/ows-common.git"
+  },
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@wedontknowjs/ows-build": "^0.0.3",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT"
+}
